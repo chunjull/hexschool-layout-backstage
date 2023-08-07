@@ -5,18 +5,96 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>index</title>
-    <script type="module" crossorigin src="/hexschool-layout-backstage/assets/main-2d761428.js"></script>
-    <link rel="stylesheet" href="/hexschool-layout-backstage/assets/main-4cfea7bd.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script type="module" crossorigin src="/hexschool-layout-backstage/assets/main-10a607a9.js"></script>
+    <link rel="stylesheet" href="/hexschool-layout-backstage/assets/main-ea6297e0.css">
   </head>
-  <body>
-    <h1 class="header">我是 header</h1>
-<a href="index.html">index</a>
-<a href="about.html">about</a>
-<a href="contact.html">contact</a>
-    <h1 class="index-title">我是首頁</h1>
-    <img src="/hexschool-layout-backstage/assets/cat-0c0689ae.jpg" style="width: 300px;" alt="cat">
+  <body class="d-flex">
+    <aside class="bg-light">
+    <div class="d-flex flex-column vh-100 container py-7 ps-7 pe-0">
+        <h1 class="mb-7"><a href="../pages/index.html" class="logo">ANSWER</a></h1>
+        <ul class="nav list-unstyled fw-bold d-flex flex-column">
+            <li class="nav-item mb-6">
+                <a class="nav-link link-dark py-0 px-0" href="#">
+                    <span class="material-symbols-outlined align-middle me-5">
+                        insert_chart
+                    </span>Dashboard
+                </a>
+            </li>
+            <li class="nav-item mb-6">
+                <a class="nav-link link-dark py-0 px-0" href="#">
+                    <span class="material-symbols-outlined align-middle me-5">
+                        forum
+                    </span>Question
+                </a>
+            </li>
+            <li class="nav-item mb-6">
+                <a class="nav-link py-0 px-0" href="../pages/index.html">
+                    <span class="material-symbols-outlined align-middle me-5">
+                        assignment
+                    </span>Assignment
+                </a>
+            </li>
+            <li class="nav-item mb-6">
+                <a class="nav-link link-dark py-0 px-0" href="#">
+                    <span class="material-symbols-outlined align-middle me-5">
+                        video_library
+                    </span>Course
+                </a>
+            </li>
+            <li class="nav-item mb-6">
+                <a class="nav-link link-dark py-0 px-0" href="../pages/admin.html">
+                    <span class="material-symbols-outlined align-middle me-5">
+                        group
+                    </span>Admin
+                </a>
+            </li>
+            <li class="nav-item mb-6">
+                <a class="nav-link link-dark py-0 px-0" href="#">
+                    <span class="material-symbols-outlined align-middle me-5">
+                        settings
+                    </span>Settings
+                </a>
+            </li>
+        </ul>
+        <div class="d-flex align-items-center mt-auto pe-9">
+            <img src="/hexschool-layout-backstage/assets/andychen-f14fef59.jpeg" alt="AndyChen" class="avatar me-5">
+            <div>
+                <p class="mb-0 fw-bold">Andy Chen</p>
+                <span class="text-secondary fs-sm">andy0401@mail.com</span>
+            </div>
+        </div>
+    </div>
+</aside>
+    <main>
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center py-7 px-7">
+          <div class="d-flex">
+            <h2 class="display-8 fw-bold pe-8">Assignment</h2>
+            <a href="#">dropdown</a>
+          </div>
+          <ul class="list-unstyled d-flex">
+            <li>
+              <a href="#" class="link-dark">
+                <span class="material-symbols-outlined">
+                  search
+                </span>
+              </a>
+            </li>
+            <li class="ps-6">
+              <a href="#" class="link-dark">
+                <span class="material-symbols-outlined">
+                  notifications_active
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
 
-    <footer class="footer">我是 footer</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
     
   </body>
 </html>
