@@ -418,7 +418,7 @@ $spacers: (
   6: $spacer * 1.5, //24px
   7: $spacer * 2, //32px
   8: $spacer * 3, //48px
-  9: $spacer *5, //80px
+  9: $spacer * 5, //80px
 ) !default;
 // scss-docs-end spacer-variables-maps
 
@@ -617,8 +617,9 @@ $font-family-code:            var(--#{$prefix}font-monospace) !default;
 // $font-size-base affects the font size of the body text
 $font-size-root:              null !default;
 $font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
-$font-size-sm:                $font-size-base * .875 !default;
-$font-size-lg:                $font-size-base * 1.25 !default;
+$font-size-xs:                $font-size-base * .75 !default; //12px
+$font-size-sm:                $font-size-base * .875 !default; //14px
+$font-size-lg:                $font-size-base * 1.25 !default; //20px
 
 $font-weight-lighter:         lighter !default;
 $font-weight-light:           300 !default;
@@ -644,12 +645,14 @@ $h6-font-size:                $font-size-base !default;
 
 // scss-docs-start font-sizes
 $font-sizes: (
-  1: $h1-font-size,
-  2: $h2-font-size,
-  3: $h3-font-size,
-  4: $h4-font-size,
-  5: $h5-font-size,
-  6: $h6-font-size
+  1: $h1-font-size, //40px
+  2: $h2-font-size, //32px
+  3: $h3-font-size, //28px
+  4: $h4-font-size, //24px
+  5: $h5-font-size, //20px
+  6: $h6-font-size, //16px
+  7: $font-size-sm, //14px
+  8: $font-size-xs, //12px
 ) !default;
 // scss-docs-end font-sizes
 
@@ -1583,7 +1586,7 @@ $progress-bar-transition:           width .6s ease !default;
 // scss-docs-start list-group-variables
 $list-group-color:                  var(--#{$prefix}body-color) !default;
 $list-group-bg:                     var(--#{$prefix}body-bg) !default;
-$list-group-border-color:           var(--#{$prefix}border-color) !default;
+$list-group-border-color:           $success !default; //var(--#{$prefix}border-color)
 $list-group-border-width:           var(--#{$prefix}border-width) !default;
 $list-group-border-radius:          var(--#{$prefix}border-radius) !default;
 

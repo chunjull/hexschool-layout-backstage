@@ -8,16 +8,28 @@
     white-space: nowrap;
 }
 
+aside {
+    position: fixed;
+    max-width: 296px;
+}
+
+.nav-link {
+    position: relative;
+}
+
+.nav-link.active::before {
+    content: "";
+    position: absolute;
+    left: -32px;
+    width: 4px;
+    height: 32px;
+    border-left: 4px solid $primary;
+}
+
 .material-symbols-outlined {
     font-variation-settings:
     'FILL' 1,
     'wght' 400,
     'GRAD' 0,
     'opsz' 48
-}
-
-.avatar {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
 }
