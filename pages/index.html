@@ -122,22 +122,83 @@
                     </div>
                   </div>
                   <div class="card-body pt-5 pb-6 ps-5 pe-7">
-                    <div class="d-flex">
+                    <div class="d-flex mb-5">
                       <div class="flex-shrink-0">
                         <img src="../assets/images/emilywang.jpeg" alt="Emily" class="avatar">
                       </div>
-                      <div class="flex-grow-1 ms-3">
-                        This is <code class="text-success bg-light px-1 rounded-1 font-mono">div</code> content from a media component. You can replace this with any content and adjust it as needed.
-                        <a href="#" class="btn btn-light border" download="HW-2-David.zip">HW-2-David.zip</a>
+                      <div class="ps-3">
+                        <p class="fw-bold mb-1">Emily Wang</p>
+                        <p class="fs-8 text-secondary mb-0">10:38 AM (4 hours ago)</p>
                       </div>
                     </div>
-                    <div id="editor" class="editor">This is some sample content.</div>
+                    <div class="flex-grow-1 ms-8 pb-5 border-bottom">
+                      <p>Hi Teacher, the attached file is my homework of chapter 2. And here comes a question: Why in the following code the height of the <code class="text-primary bg-light px-1 rounded-1 font-mono">div</code> is bigger than the height of the <code class="text-primary bg-light px-1 rounded-1 font-mono">img</code> ? There is a gap below the image, but it doesn’t seems to be a padding/margin.<br>What is the gap or extra space below image?</p>
+                      <a href="#" class="btn btn-light border" download="HW-2-David.zip">
+                        <span class="material-symbols-outlined align-middle">
+                        attach_file
+                        </span>HW-2-David.zip
+                      </a>
+                    </div>
+                  </div>
+                  <div class="card-body py-0 ps-5 pe-7">
+                    <div class="d-flex justify-content-between mb-5">
+                      <div class="d-flex">
+                        <div class="flex-shrink-0">
+                          <img src="../assets/images/andychen.jpeg" alt="Andy" class="avatar">
+                        </div>
+                        <div class="ps-3">
+                          <p class="fw-bold mb-1">Andy Chen (You)</p>
+                          <p class="fs-8 text-secondary mb-0">13:24 AM (1 hours ago)</p>
+                        </div>
+                      </div>
+                      <div>
+                        <a href="#" class="link-dark pe-6">
+                          <span class="material-symbols-outlined outlinedIcon">
+                            grade
+                          </span>
+                        </a>
+                        <a href="#" class="link-dark">
+                          <span class="material-symbols-outlined">
+                            edit
+                          </span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="flex-grow-1 ms-8">
+                      <p>Hi David, by default, an image is rendered inline, like a letter so it sits on the same line that a, b, c and d sit on. There is space below that line for the descenders you find on letters like g, j, p and q.</p>
+                      <p>You can:</p>
+                      <ul>
+                        <li>adjust the <code class="text-primary bg-light px-1 rounded-1 font-mono">vertical-align</code> of the image to position it elsewhere (e.g. <code class="text-primary bg-light px-1 rounded-1 font-mono">middle</code> ) or</li>
+                        <li>change the <code class="text-primary bg-light px-1 rounded-1 font-mono">display</code> so it isn’t inline.</li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">...2</div>
-              <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">...3</div>
-              <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">...4</div>
+            </div>
+            <div class="d-flex justify-content-between mt-5">
+              <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                  <li class="page-item border-none">
+                    <a class="page-link link-dark" href="#">
+                      <span class="material-symbols-outlined">
+                        chevron_left
+                      </span>
+                    </a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link link-dark" href="#">
+                      <span class="material-symbols-outlined">
+                        chevron_right
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+              <div>
+                <button type="button" class="btn btn-outline-primary me-3 rounded-1 fw-bold px-7 py-3">Mark as read</button>
+                <button type="button" class="btn btn-primary rounded-1 fw-bold px-7 py-3">Reply</button>
+              </div>
             </div>
           </div>
         </div>
