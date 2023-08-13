@@ -386,13 +386,30 @@
                 <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content p-7">
                         <div class="modal-body p-0 d-flex">
-                            <img src="/hexschool-layout-backstage/assets/emir-3d7a4b39.jpeg" alt="Emir" style="width: 141px; height: 141px;">
-                            <div class="ms-6">
+                            <div class="flex-shrink-0">
+                                <img src="/hexschool-layout-backstage/assets/emir-3d7a4b39.jpeg" alt="Emir" style="width: 141px; height: 141px;">
+                            </div>
+                            <div class="flex-grow-1 ms-6">
                                 <div class="d-flex justify-content-between">
-                                    <p>#1</p>
+                                    <span>#1</span>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
-                                
+                                <p class="mb-0">Admin</p>
+                                <h4 class="fw-bold mb-3">Emir Wicks</h4>
+                                <p class="fs-7 text-secondary">emir.wicks@mail.com</p>
+                                <a class="text-decoration-none d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#collapseDetail" role="button" aria-expanded="false" aria-controls="collapseDetail">
+                                    <span class="badge bg-light text-dark">Verified</span>
+                                    <span class="material-symbols-outlined text-primary">
+                                        expand_more
+                                    </span>
+                                </a>
+                                <!-- collapse -->
+                                <div class="collapse" id="collapseDetail">
+                                    <div class="pt-7 d-flex justify-content-between">
+                                        <button type="button" class="btn btn-outline-danger py-3 px-7" data-bs-dismiss="modal">Deactivate</button>
+                                        <button type="button" class="btn btn-primary py-3 px-7">Edit</button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -427,7 +444,7 @@
                                 <p class="fs-7">2020/4/12</p>
                             </div>
                             <div class="pb-6 border-bottom mb-7">
-                                <button type="button" class="btn btn-outline-success text-success fw-bold w-100 py-5">Send Verification Mail</button>
+                                <button type="button" class="btn btn-outline-success text-success fw-bold w-100 py-5" disabled>Send Verification Mail</button>
                             </div>
                             <div class="pb-6 border-bottom mb-6">
                                 <h5 class="fw-bold mb-5">Access Level</h5>
