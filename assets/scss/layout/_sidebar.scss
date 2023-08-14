@@ -17,7 +17,7 @@ aside {
     position: relative;
 }
 
-.nav-link.active::before {
+.active::before {
     content: "";
     position: absolute;
     left: -32px;
